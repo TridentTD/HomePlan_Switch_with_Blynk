@@ -91,30 +91,30 @@ BLYNK_DISCONNECTED(){
 
 /* เมื่อ แอพ blynk มีการกดปุ่มเข้ามาทาง virtual pin V1 */
 BLYNK_WRITE(V1){    
-  closet.state(param.asInt());  // ให้ทำการ update สถานะ ของ sw3d ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
+  closet.state(param.asInt());  // ให้ทำการ update สถานะ ของ closet ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
 }
 
 /* เมื่อ แอพ blynk มีการกดปุ่มเข้ามาทาง virtual pin V2 */
 BLYNK_WRITE(V2){    
-  bedroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ sw3d ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
+  bedroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ bedroom ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
 }
 
 /* เมื่อ แอพ blynk มีการกดปุ่มเข้ามาทาง virtual pin V3 */
 BLYNK_WRITE(V3){    
-  bathroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ sw3d ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
+  bathroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ bathroom ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
 }
 
 /* เมื่อ แอพ blynk มีการกดปุ่มเข้ามาทาง virtual pin V4 */
 BLYNK_WRITE(V4){    
-  kitchen.state(param.asInt());  // ให้ทำการ update สถานะ ของ sw3d ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
+  kitchen.state(param.asInt());  // ให้ทำการ update สถานะ ของ kitchen ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
 }
 
 /* เมื่อ แอพ blynk มีการกดปุ่มเข้ามาทาง virtual pin V5 */
 BLYNK_WRITE(V5){    
-  sittingroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ sw3d ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
+  sittingroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ sittingroom ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
 }
 
 /* เมื่อ แอพ blynk มีการกดปุ่มเข้ามาทาง virtual pin V6 */
 BLYNK_WRITE(V6){    
-  dinningroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ sw3d ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
+  dinningroom.state(param.asInt());  // ให้ทำการ update สถานะ ของ dinningroom ด้วย (ซึ่งจะอัพเดตขา gpio ด้วยในตัวอัตโนมัติ)
 }
